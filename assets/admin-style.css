@@ -1,0 +1,245 @@
+.nxt-importer-wrap {
+	max-width: 1200px;
+}
+
+.nxt-importer-card {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.nxt-importer-card h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.nxt-upload-area {
+	position: relative;
+	border: 2px dashed #b4b9be;
+	border-radius: 4px;
+	padding: 40px;
+	text-align: center;
+	transition: all 0.3s ease;
+	background: #fafafa;
+}
+
+.nxt-upload-area:hover {
+	border-color: #0073aa;
+	background: #f0f6fc;
+}
+
+.nxt-upload-area.dragover {
+	border-color: #0073aa;
+	background: #e5f5fa;
+	transform: scale(1.02);
+}
+
+.nxt-upload-area input[type="file"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.nxt-upload-placeholder {
+	pointer-events: none;
+}
+
+.nxt-upload-placeholder .dashicons {
+	font-size: 60px;
+	width: 60px;
+	height: 60px;
+	color: #b4b9be;
+	margin-bottom: 10px;
+}
+
+.nxt-upload-placeholder p {
+	margin: 5px 0;
+	color: #555;
+}
+
+.nxt-upload-area.has-files .nxt-upload-placeholder {
+	display: none;
+}
+
+.nxt-upload-preview {
+	display: none;
+	text-align: left;
+}
+
+.nxt-upload-area.has-files .nxt-upload-preview {
+	display: block;
+}
+
+.file-preview-item {
+	padding: 8px 0;
+	border-bottom: 1px solid #e0e0e0;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.file-preview-item:last-child {
+	border-bottom: none;
+}
+
+.file-preview-item .dashicons {
+	color: #0073aa;
+}
+
+.button-hero {
+	padding: 12px 24px !important;
+	height: auto !important;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+}
+
+.button-hero .dashicons {
+	margin-right: 8px;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.nxt-progress {
+	margin: 20px 0;
+	padding: 20px;
+	background: #f0f6fc;
+	border: 1px solid #0073aa;
+	border-radius: 4px;
+}
+
+.nxt-progress h3 {
+	margin-top: 0;
+}
+
+.nxt-progress-bar {
+	width: 100%;
+	height: 30px;
+	background: #fff;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 15px 0;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.nxt-progress-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #0073aa 0%, #00a0d2 100%);
+	transition: width 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.nxt-progress-text {
+	text-align: center;
+	color: #0073aa;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+.nxt-results {
+	margin: 20px 0;
+}
+
+.nxt-results h3 {
+	margin-top: 0;
+}
+
+.nxt-results-summary {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 20px;
+	padding: 15px;
+	background: #f9f9f9;
+	border-radius: 4px;
+}
+
+.nxt-results-summary p {
+	margin: 0;
+}
+
+.nxt-results-summary .success {
+	color: #46b450;
+	font-weight: bold;
+}
+
+.nxt-results-summary .error {
+	color: #dc3232;
+	font-weight: bold;
+}
+
+.nxt-results table {
+	margin-top: 20px;
+}
+
+.nxt-results table td,
+.nxt-results table th {
+	padding: 12px;
+}
+
+.success-row {
+	background-color: #f0f9f0;
+}
+
+.error-row {
+	background-color: #fef7f7;
+}
+
+.nxt-help {
+	background: #fffbf0;
+	border-color: #f0b849;
+}
+
+.nxt-help h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #23282d;
+}
+
+.nxt-help h3:first-of-type {
+	margin-top: 0;
+}
+
+.nxt-help pre {
+	background: #23282d;
+	color: #f0f0f0;
+	padding: 15px;
+	border-radius: 4px;
+	overflow-x: auto;
+	margin: 10px 0;
+}
+
+.nxt-help code {
+	background: #f5f5f5;
+	padding: 2px 6px;
+	border-radius: 3px;
+	font-family: 'Courier New', monospace;
+}
+
+.nxt-help pre code {
+	background: transparent;
+	padding: 0;
+}
+
+.nxt-help ul,
+.nxt-help ol {
+	margin-left: 20px;
+}
+
+.nxt-help li {
+	margin: 8px 0;
+}
+
