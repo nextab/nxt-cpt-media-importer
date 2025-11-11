@@ -182,5 +182,5 @@ Bei Fragen oder Problemen:
 ---
 
 **Version:** 1.0.0  
-**Autor:** nexTab / Cursor mit Claude Sonnet 4.5
-**Lizenz:** Proprietär
+**Autor:** nexTab & Cursor mit Claude Sonnet 4.5
+**Lizenz:** GNU Public 3.0
